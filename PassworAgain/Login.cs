@@ -12,7 +12,7 @@ namespace PassworAgain
 
         private void btnLog_Click(object sender, EventArgs e)
         {
-            if ((txtName.Text == "Mr" && txtPass.Text == "0827895671" )|| (txtName.Text == "Matebele" && txtPass.Text == "ThisIsGreat"))
+            if ((txtName.Text == "" && txtPass.Text == "" )|| (txtName.Text == "Matebe" && txtPass.Text == "ThisIsGreat"))
             {
                 // Set DialogResult to OK to indicate successful login
                 this.DialogResult = DialogResult.OK;
